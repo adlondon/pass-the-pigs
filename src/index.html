@@ -6,8 +6,15 @@
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
   <body>
-    <script src="/assets/js/lib/react.js"></script>
-    <script src="/assets/js/lib/react-dom.js"></script>
+    <div id="root"></div>
+    <script src="https://fb.me/react-with-addons-15.3.0.min.js"></script>
+    <script src="https://fb.me/react-dom-15.3.0.min.js"></script>
     <script src="/assets/js/index.js"></script>
+    <script type="text/javascript">
+      ReactDOM.render(
+        <PassThePigs />,
+        document.getElementById('root')
+      );
+    </script>
   </body>
 </html>
